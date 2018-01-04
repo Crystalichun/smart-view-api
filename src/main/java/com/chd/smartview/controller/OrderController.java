@@ -13,10 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.chd.smartview.model.Customer;
 import com.chd.smartview.model.Order;
-import com.chd.smartview.service.CustomerService;
 import com.chd.smartview.service.OrderService;
+
 
 @RestController
 @RequestMapping("/orders")
